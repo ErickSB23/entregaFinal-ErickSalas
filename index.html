@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Lista de productos</h1>
+            <div class="iconoCarro">
+                <img src="/IMG/carrito-de-compras.png">
+                <div class="total">0</div>
+            </div>
+        </header>
+
+        <div class="listaDeProductos">
+            <div class="objeto">
+                <img src="/IMG/1.webp">
+                <h2>Nombre del Producto</h2>
+                <div class="precio">$50</div>
+                <button onclick="agregarcarro(id)">Agregar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="carro">
+        <h2>Carro</h2>
+        <div class="listaCarro">
+            <div class="objeto">
+            <img src="/IMG/1.webp">
+            <div class="contenido">
+                <div class="nombre">
+                    Nombre del Producto
+                </div>
+                <div class="precio">
+                    $50/1 Producto
+                </div>
+              </div>
+              <div class="cantidad">
+                <button>-</button>
+                <span class ="precio">3</span>
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+    <div class="botones">
+        <div class="cerrar">Cerrar</div>
+        <div class="verificar">
+            <a href="verificar.html">Verificar</a>
+        </div>
+    </div>
+    </div>
+    
+    <script src="./JS/app.js"></script>
+</body>
+</html>

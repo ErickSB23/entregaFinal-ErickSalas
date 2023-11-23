@@ -1,0 +1,38 @@
+[
+{
+    "id":1,
+    "nombre": "Relog de safiro",
+    "precio": 50,
+    "imagen": "img/1.webp"
+},
+{
+    "id":2,
+    "nombre": "Relog de oro de 24k",
+    "precio": 87,
+    "imagen": "img/2.webp"
+},
+{
+    "id":3,
+    "nombre": "Relog de piel de avestrus",
+    "precio": 62,
+    "imagen": "img/3.webp"
+},
+{
+    "id":4,
+    "nombre": "relog Cosmico con piedas espaciales",
+    "precio": 49,
+    "imagen": "img/4.webp"
+},
+{
+    "id":5 ,
+    "nombre": "Relog con diamante y oro forjado",
+    "precio": 100,
+    "imagen": "img/5.webp"
+},
+{
+    "id":6,
+    "nombre": "Relog solar con restos de plasma",
+    "precio": 94,
+    "imagen": "img/6.webp"
+}
+]

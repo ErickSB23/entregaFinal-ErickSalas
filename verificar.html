@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="verificarVentana">
+            <div class="regresarAlCarro">
+                <a href="/">Continuar Comprando</a>
+                <h1>Lista de Productos en el Carrito</h1>
+                <div class="lista">
+                    <div class="icono">
+                        <img src="img/1.webp" alt="">
+                        <div class="info">
+                            <div class="nombre">Producto 1</div>
+                            <div class="precio">$22/1</div>
+                        </div>
+                        <div class="cantidad">1</div>
+                        <div class="precioRetornado">$50</div>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha">
+                <h1>Verificar</h1>
+                <div class="formulario">
+                    <div class="grupo">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="grupo">
+                        <label for="telefono">Numero de telefono</label>
+                        <input type="text" name="telefono" id="telefono">
+                    </div>
+                    <div class="grupo">
+                        <label for="domicilio">Domicilio</label>
+                        <input type="text" name="domicilio" id="domicilio">
+                    </div>
+                    <div class="grupo">
+                        <label for="pais">Pais</label>
+                       <select name="pais" id="pais">
+                        <option value="">Escoger..</option>
+                        <option value="mexico">MEXICO</option>
+                       </select>
+                    </div>
+                    <div class="grupo">
+                        <label for="ciudad">Cuidad</label>
+                        <select name="ciudad" id="ciudad">
+                            <option value="">Escoger..</option>
+                            <option value="cancun">Cancun</option>
+                           </select>
+                    </div>
+                </div>
+                <div class="regresar">
+                    <div class="fila">
+                        <div>Cantidad Total</div>
+                        <div class="cantidadTotal">60</div>
+                    </div>
+                    <div class="fila">
+                        <div>Precio Total</div>
+                        <div class="precioTotal">$60</div>
+                    </div>
+                </div>
+                <button class="botonVerificar">VERIFICAR</button>
+                <div class="datosCliente">
+                    <h2>Datos de Cliente</h2>
+                    <div class="clienteNombre"></div>
+                    <div class="clienteTelefono"></div>
+                    <div class="clienteDomicilio"></div>
+                    <div class="clientePais"></div>
+                    <div class="clienteCiudad"></div>
+                </div>
+                <div class="confirmarPedido">
+                    <button class="botonConfirmarPedido">CONFIRMAR PEDIDO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/verificar.js"></script>
+</body>
+</html>
